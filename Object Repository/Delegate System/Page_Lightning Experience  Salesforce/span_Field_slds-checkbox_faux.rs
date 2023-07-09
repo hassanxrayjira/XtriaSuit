@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Field_slds-checkbox_faux</name>
+   <tag></tag>
+   <elementGuidId>b9c49637-098f-4864-bdad-8171db7f9de3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#VAC-SOUTH1-1618 > div.slds-form-element__control.slds-grow > span.slds-checkbox > label.slds-checkbox__label > span.slds-checkbox_faux</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[div[text()='VAC-SOUTH1']]/preceding-sibling::td/div/lightning-input/div/span/label/span[@part='indicator']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ed8467e1-1334-4fb5-8b70-370bacaacbed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>part</name>
+      <type>Main</type>
+      <value>indicator</value>
+      <webElementGuid>e038d99a-684c-4538-bb26-6c3da2f51014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-checkbox_faux</value>
+      <webElementGuid>9bd80c77-578b-4573-87cd-f3a8549ee9bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;VAC-SOUTH1-1618&quot;)/div[@class=&quot;slds-form-element__control slds-grow&quot;]/span[@class=&quot;slds-checkbox&quot;]/label[@class=&quot;slds-checkbox__label&quot;]/span[@class=&quot;slds-checkbox_faux&quot;]</value>
+      <webElementGuid>be78d20f-1bea-48a7-b02d-4243477288bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//lightning-input[@id='VAC-SOUTH1-1618']/div/span/label/span</value>
+      <webElementGuid>d76b71d1-fd29-49ea-a2d1-8439d4314e69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td/div/lightning-input/div/span/label/span</value>
+      <webElementGuid>67f4e764-3684-46f6-bf4b-d77baf84ae4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

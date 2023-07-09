@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_New Folder</name>
+   <tag></tag>
+   <elementGuidId>aebaaa82-547e-4497-8ad7-6ddfc5c0e4eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.context-menu__item > lightning-button > button.slds-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@class, 'slds-button') and text() ='New Folder']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6d22adc7-3b38-41a6-870a-7d44c701f723</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-button</value>
+      <webElementGuid>56460875-8064-4a0f-a6ab-24fdf09155d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>0c87eaee-25ba-42e1-b14b-8b1e0bb561aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5c044df0-ca2f-45d9-a017-a393440c1957</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Folder</value>
+      <webElementGuid>986c4e6e-657a-4f35-84d9-c4e9ed7a7f7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/siqic-qr_-list-page-lwc[1]/div[@class=&quot;row&quot;]/div[@class=&quot;slds-grid slds-p-around--medium&quot;]/div[1]/div[@class=&quot;vertical-scroll&quot;]/div[1]/div[@class=&quot;slds-tree_container&quot;]/nav[@class=&quot;context-menu&quot;]/ul[@class=&quot;context-menu__items&quot;]/li[@class=&quot;context-menu__item&quot;]/lightning-button[1]/button[@class=&quot;slds-button&quot;]</value>
+      <webElementGuid>21aff23c-e857-4c8a-bd2c-22c6dc6e4054</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[152]</value>
+      <webElementGuid>7196b074-c807-4118-96d1-1e67551604fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_2']/div/div/div/siqic-qr_-list-page-lwc/div/div/div/div/div/div/nav/ul/li/lightning-button/button</value>
+      <webElementGuid>46de91af-970b-49a8-abce-47fbeffa2248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='z06'])[1]/following::button[1]</value>
+      <webElementGuid>f5004a23-0bf5-4854-a150-1235173d2541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='z05'])[1]/following::button[2]</value>
+      <webElementGuid>ae3cbd8d-ce1f-436d-a212-af7d46cfa145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quota Refinement List'])[1]/preceding::button[2]</value>
+      <webElementGuid>1ae79414-1d4d-49de-bef9-18b969c46ae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quota Refinement List'])[2]/preceding::button[2]</value>
+      <webElementGuid>e1b8284b-9ce7-4885-86ca-52620240da7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='New Folder']/parent::*</value>
+      <webElementGuid>ff5c93b2-7c84-4f74-bb7a-2b6a8159e566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/lightning-button/button</value>
+      <webElementGuid>d79f84d4-dc24-40fb-8d20-d387b59c3d2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'New Folder' or . = 'New Folder')]</value>
+      <webElementGuid>35ed1ac4-483f-4baf-85fc-bc8d11ac8a79</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

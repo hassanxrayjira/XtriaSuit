@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Delete</name>
+   <tag></tag>
+   <elementGuidId>5376891e-58ac-499f-97e2-4dd0bf0c4141</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Delete']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4d7c6df3-7795-455f-8dab-d47067aecc08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-truncate</value>
+      <webElementGuid>4568316d-c779-4e25-89e6-28ceb36cfe93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete</value>
+      <webElementGuid>51636738-8619-4618-9db3-c9528d9b2c55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/siqic-qr_-list-page-lwc[1]/div[@class=&quot;row&quot;]/div[@class=&quot;slds-grid slds-p-around--medium&quot;]/div[@class=&quot;slds-col slds-border_left&quot;]/div[@class=&quot;slds-m-left--medium slds-m-right--medium slds-m-top--small sldc-scrollable slds-is-relative&quot;]/lightning-layout-item[@class=&quot;slds-size_11-of-12&quot;]/slot[1]/div[@class=&quot;list-scroll&quot;]/table[@class=&quot;list table-example slds-is-relative slds-scrollable&quot;]/tbody[1]/tr[@class=&quot;slds-hint-parent dataRow&quot;]/td[7]/div[@class=&quot;slds-truncate slds-dropdown-trigger slds-dropdown-trigger_click&quot;]/lightning-button-menu[@class=&quot;slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open&quot;]/div[@class=&quot;slds-dropdown slds-dropdown_left&quot;]/div[@class=&quot;slds-dropdown__list slds-dropdown_length-with-icon-10&quot;]/slot[1]/lightning-menu-item[@class=&quot;slds-dropdown__item&quot;]/a[1]/span[@class=&quot;slds-truncate&quot;]</value>
+      <webElementGuid>c8d35604-b7aa-4b92-bd32-e4894242ad1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_2']/div/div/div/siqic-qr_-list-page-lwc/div/div/div[3]/div[2]/lightning-layout-item/slot/div/table/tbody/tr/td[7]/div/lightning-button-menu/div/div/slot/lightning-menu-item[8]/a/span</value>
+      <webElementGuid>84fdac37-dd47-4788-a158-500c5730a124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terminate'])[1]/following::span[1]</value>
+      <webElementGuid>1eddb0ca-36e8-482f-9735-b2638fa5e3a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[1]/following::span[2]</value>
+      <webElementGuid>86af3e51-e102-46e4-a850-f8925f3760b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test8767890987'])[1]/preceding::span[1]</value>
+      <webElementGuid>50e66d08-6867-46eb-9d86-0eca5c73033e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VAC'])[2]/preceding::span[1]</value>
+      <webElementGuid>7ea2528a-98cc-4729-8fda-125ac5ede539</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//lightning-menu-item[8]/a/span</value>
+      <webElementGuid>41df43de-8d62-4e08-873b-9d9d93727edc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>66f4ece5-6c2d-4d0a-a4e8-4074fa1a37a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

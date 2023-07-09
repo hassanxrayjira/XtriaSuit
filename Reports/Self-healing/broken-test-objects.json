@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product",
+      "brokenLocator": "//div[@id\u003d\u0027navbar-inputs-1796\u0027]/lightning-combobox/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/lightning-combobox/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team",
+      "brokenLocator": "//button[@aria-label \u003d \u0027Team, Select Team\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027brandBand_2\u0027]/div/div/div[2]/siqic-qr-new-cycle-creation/div/div[3]/c-qr-h-o-details/div/div[2]/div/lightning-combobox/div/lightning-base-combobox/div/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha",
+      "brokenLocator": "//span[text()\u003d\u0027Alpha\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Team\u0027])[2]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha_neighbor.png"
+    }
+  ]
+}

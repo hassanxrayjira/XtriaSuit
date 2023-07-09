@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_User Type_slds-checkbox_faux</name>
+   <tag></tag>
+   <elementGuidId>d9fa5608-e244-4fd2-886e-feb33268f972</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.slds-checkbox_faux</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[div[text()='VAC-SOUTH3']]/preceding-sibling::td/div/lightning-input/div/span/label/span[@part='indicator']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>88e701e8-933f-4c9d-9d4f-6197529a527f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>part</name>
+      <type>Main</type>
+      <value>indicator</value>
+      <webElementGuid>9a0ef1a9-892e-4696-8474-3c09af2c6228</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-checkbox_faux</value>
+      <webElementGuid>7cb59795-9e12-4d8b-a3e3-5995f7676513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;VAC-REGION-3396&quot;)/div[@class=&quot;slds-form-element__control slds-grow&quot;]/span[@class=&quot;slds-checkbox&quot;]/label[@class=&quot;slds-checkbox__label&quot;]/span[@class=&quot;slds-checkbox_faux&quot;]</value>
+      <webElementGuid>e192ef9e-ada2-400d-9eda-217e457f457d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//lightning-input[@id='VAC-REGION-3396']/div/span/label/span</value>
+      <webElementGuid>bed49bd7-3cd6-41b0-82b2-6a66d8c37e87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/label/span</value>
+      <webElementGuid>9818f6ac-de43-441e-9699-21ff5ea6978d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

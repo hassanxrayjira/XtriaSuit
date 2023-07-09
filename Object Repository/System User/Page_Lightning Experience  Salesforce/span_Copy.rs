@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Copy</name>
+   <tag></tag>
+   <elementGuidId>39ca4a45-00e9-4cad-b962-63665a39d217</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.slds-radio_faux</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[div[text()='${GlobalVariable.RosterName2}']]/preceding-sibling::td//span[contains(@class, 'slds-radio_faux')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eabdedcc-31a9-410e-ba92-2f79fa6dd74a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-radio_faux</value>
+      <webElementGuid>d4a37bf3-ba14-49c9-a7e4-daf6bb154aa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-content-id-1-3396&quot;)/div[@class=&quot;delegation-table&quot;]/table[@class=&quot;slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered table-side-borders&quot;]/tbody[1]/tr[@class=&quot;slds-hint-parent&quot;]/td[1]/span[@class=&quot;slds-radio&quot;]/label[@class=&quot;slds-radio__label&quot;]/span[@class=&quot;slds-radio_faux&quot;]</value>
+      <webElementGuid>7c5c45ec-45eb-45ef-9771-7b429f07a6c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-content-id-1-3396']/div[2]/table/tbody/tr/td/span/label/span</value>
+      <webElementGuid>1884b3f1-f7db-49d3-90ef-e17c7cd8d6d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>131fd833-1baf-4443-b0f7-d979a5c42545</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

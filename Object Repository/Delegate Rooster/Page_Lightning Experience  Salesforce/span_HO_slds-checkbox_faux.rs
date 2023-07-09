@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_HO_slds-checkbox_faux</name>
+   <tag></tag>
+   <elementGuidId>9887180c-d6e2-4fd4-baaa-95c8546c3493</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#VAC-Unallocated-1582 > div.slds-form-element__control.slds-grow > span.slds-checkbox > label.slds-checkbox__label > span.slds-checkbox_faux</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[div[text()='VAC-Unallocated']]/preceding-sibling::td/div/lightning-input/div/span/label/span[@part='indicator']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cd8e1ee1-b242-4977-88a4-dcfd2d3e3fb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>part</name>
+      <type>Main</type>
+      <value>indicator</value>
+      <webElementGuid>089d6852-0be5-4ed6-acb3-b1e753d624a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-checkbox_faux</value>
+      <webElementGuid>db90a8c7-4ab1-4db1-a2e3-1175d5abaddd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;VAC-Unallocated-1582&quot;)/div[@class=&quot;slds-form-element__control slds-grow&quot;]/span[@class=&quot;slds-checkbox&quot;]/label[@class=&quot;slds-checkbox__label&quot;]/span[@class=&quot;slds-checkbox_faux&quot;]</value>
+      <webElementGuid>2c42c802-0394-4975-af34-13f74987ac5f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//lightning-input[@id='VAC-Unallocated-1582']/div/span/label/span</value>
+      <webElementGuid>3a65f0f2-2345-49a1-a24f-47af99549940</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/div/lightning-input/div/span/label/span</value>
+      <webElementGuid>190e6566-87ef-4db9-a87c-ee0ace379c24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

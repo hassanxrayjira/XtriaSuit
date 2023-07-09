@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sanity" time="289.54" tests="4" failures="0" errors="0">
+   <testsuite name="Sanity" tests="4" failures="0" errors="0" time="289.54" skipped="0" timestamp="2023-07-09 01:40:35" hostname="Jalal - 192.168.0.109" id="Test Suites/Sanity">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_014030\\Sanity\\20230709_014030"/>
+         <property name="logFiles" value="C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_014030\\Sanity\\20230709_014030\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jalal - 192.168.0.109"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.109"/>
+         <property name="sessionId" value="41a077ff6e2024e09458d08c26667545"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12402" time="143.903" classname="Test Cases/Sanity/SIQ-TC-12402" status="PASSED">
+         <system-out><![CDATA[2023-07-09 01:40:36 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12402: Test Cases/Sanity/SIQ-TC-12402
+
+2023-07-09 01:40:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Logout/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Logout/Login' successfully
+
+2023-07-09 01:40:37 - [TEST_CASE][PASSED] - Test Cases/Login Logout/Login: Test Cases/Login Logout/Login
+
+2023-07-09 01:40:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-09 01:40:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-09 01:40:38 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.default_content_setting_values.notifications=1.0}']
+
+2023-07-09 01:40:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-09 01:40:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-09 01:40:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-09 01:40:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-09 01:40:41 - [TEST_STEP][PASSED] - navigateToUrl("https://login.salesforce.com/"): Navigate to 'https://login.salesforce.com/' successfully
+
+2023-07-09 01:40:46 - [MESSAGE][PASSED] - Navigate to 'https://login.salesforce.com/' successfully
+
+2023-07-09 01:40:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_Login  Salesforce/label_Username"), "Username"): Actual text and expected text of test object 'Object Repository/Login/Page_Login  Salesforce/label_Username' are matched.
+
+2023-07-09 01:40:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Login  Salesforce/label_Username' are matched.
+
+2023-07-09 01:40:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login  Salesforce/input_Username_username"), "vinod.bendre@axtria.com.int"): Text 'vinod.bendre@axtria.com.int' is set on object 'Object Repository/Login/Page_Login  Salesforce/input_Username_username'
+
+2023-07-09 01:40:47 - [MESSAGE][PASSED] - Text 'vinod.bendre@axtria.com.int' is set on object 'Object Repository/Login/Page_Login  Salesforce/input_Username_username'
+
+2023-07-09 01:40:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Login  Salesforce/input_Password_pw"), "uXlRb1kGYHM+iH3zWjUAbA=="): Text ****** has been set on object 'Object Repository/Login/Page_Login  Salesforce/input_Password_pw'
+
+2023-07-09 01:40:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Login  Salesforce/input_Password_pw'
+
+2023-07-09 01:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/Login/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-07-09 01:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-07-09 01:40:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Page_SalesIQ Home  Salesforce/span_SalesIQ Home"), 0): Object 'Object Repository/Login/Page_SalesIQ Home  Salesforce/span_SalesIQ Home' is visible
+
+2023-07-09 01:40:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_SalesIQ Home  Salesforce/span_SalesIQ Home' is visible
+
+2023-07-09 01:41:07 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-07-09 01:41:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-07-09 01:41:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Logout/Login' successfully
+
+2023-07-09 01:41:11 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:41:17 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:41:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 10): Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), STOP_ON_FAILURE): Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 01:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 01:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement")): Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 01:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 01:41:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All"), 10): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is visible
+
+2023-07-09 01:41:29 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is visible
+
+2023-07-09 01:41:29 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is right clicked on
+
+2023-07-09 01:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is right clicked on
+
+2023-07-09 01:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Folder")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Folder' is clicked on
+
+2023-07-09 01:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Folder' is clicked on
+
+2023-07-09 01:41:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Name"), 10): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Name' is visible
+
+2023-07-09 01:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Name' is visible
+
+2023-07-09 01:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_FolderName"), QL): Text '!Af' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_FolderName'
+
+2023-07-09 01:41:35 - [MESSAGE][PASSED] - Text '!Af' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_FolderName'
+
+2023-07-09 01:41:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand' is clicked on
+
+2023-07-09 01:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand' is clicked on
+
+2023-07-09 01:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345' is clicked on
+
+2023-07-09 01:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345' is clicked on
+
+2023-07-09 01:41:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement"), 0): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 01:41:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 01:41:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement"), 0): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 01:41:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 01:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is clicked on
+
+2023-07-09 01:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is clicked on
+
+2023-07-09 01:41:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading"))
+
+2023-07-09 01:41:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading"))
+
+2023-07-09 01:41:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"))
+
+2023-07-09 01:41:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"))
+
+2023-07-09 01:41:43 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2023-07-09 01:41:43 - [TEST_STEP][PASSED] - val = now.format("yyyy-mm-dd HH:mm:s"): null
+
+2023-07-09 01:41:43 - [TEST_STEP][PASSED] - println("Test" + val): null
+
+2023-07-09 01:41:43 - [TEST_STEP][PASSED] - Nameof = val: null
+
+2023-07-09 01:41:43 - [TEST_STEP][PASSED] - println("GVB" + Nameof): null
+
+2023-07-09 01:41:43 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val): NOT_RUN: setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val)
+
+2023-07-09 01:41:43 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val)
+
+2023-07-09 01:41:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val): Text '2023-41-09 01:41:43' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName'
+
+2023-07-09 01:41:46 - [MESSAGE][PASSED] - Text '2023-41-09 01:41:43' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName'
+
+2023-07-09 01:41:46 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-09 01:41:54 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-09 01:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading' is clicked on
+
+2023-07-09 01:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading' is clicked on
+
+2023-07-09 01:41:54 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Business UnitBusiness UnitVacAllergybuB_99ca2d")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Business UnitBusiness UnitVacAllergybuB_99ca2d"))
+
+2023-07-09 01:41:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Business UnitBusiness UnitVacAllergybuB_99ca2d"))
+
+2023-07-09 01:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Business Unit")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Business Unit' is clicked on
+
+2023-07-09 01:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Business Unit' is clicked on
+
+2023-07-09 01:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Vac")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Vac' is clicked on
+
+2023-07-09 01:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Vac' is clicked on
+
+2023-07-09 01:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team' is clicked on
+
+2023-07-09 01:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team' is clicked on
+
+2023-07-09 01:41:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha' is clicked on
+
+2023-07-09 01:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha' is clicked on
+
+2023-07-09 01:41:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_ProductSelect ProductAllCRESMBAGARDASIL_ddc9a7")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_ProductSelect ProductAllCRESMBAGARDASIL_ddc9a7"))
+
+2023-07-09 01:41:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_ProductSelect ProductAllCRESMBAGARDASIL_ddc9a7"))
+
+2023-07-09 01:41:58 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-09 01:42:06 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-09 01:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Product")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Product' is clicked on
+
+2023-07-09 01:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Product' is clicked on
+
+2023-07-09 01:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_GARDASIL")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_GARDASIL' is clicked on
+
+2023-07-09 01:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_GARDASIL' is clicked on
+
+2023-07-09 01:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Time Period")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Time Period' is clicked on
+
+2023-07-09 01:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Time Period' is clicked on
+
+2023-07-09 01:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Daily")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Daily' is clicked on
+
+2023-07-09 01:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Daily' is clicked on
+
+2023-07-09 01:42:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Date_date"), "7/4/2004"): Text '7/4/2004' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Date_date'
+
+2023-07-09 01:42:09 - [MESSAGE][PASSED] - Text '7/4/2004' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Date_date'
+
+2023-07-09 01:42:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-09 01:42:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-09 01:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 01:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 01:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 01:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 01:42:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-09 01:42:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-09 01:42:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Super Admin Integration_roster-group")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Super Admin Integration_roster-group' is clicked on
+
+2023-07-09 01:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Super Admin Integration_roster-group' is clicked on
+
+2023-07-09 01:42:21 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-09 01:42:29 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-09 01:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Save")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Save' is clicked on
+
+2023-07-09 01:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Save' is clicked on
+
+2023-07-09 01:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next' is clicked on
+
+2023-07-09 01:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next' is clicked on
+
+2023-07-09 01:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next_1")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next_1' is clicked on
+
+2023-07-09 01:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next_1' is clicked on
+
+2023-07-09 01:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle' is clicked on
+
+2023-07-09 01:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12405" time="76.601" classname="Test Cases/Sanity/SIQ-TC-12405" status="PASSED">
+         <system-out><![CDATA[2023-07-09 01:42:59 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12405: Test Cases/Sanity/SIQ-TC-12405
+
+2023-07-09 01:43:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy"), 0): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy' is visible
+
+2023-07-09 01:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy' is visible
+
+2023-07-09 01:43:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product"), 30): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product' is visible
+
+2023-07-09 01:43:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='navbar-inputs-1796']/lightning-combobox/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-09 01:43:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product'. Try using Self-healing.
+
+2023-07-09 01:43:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product' was broken. Propose an alternative one: '//div[2]/lightning-combobox/label'.
+
+2023-07-09 01:43:32 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product' is visible
+
+2023-07-09 01:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Submit")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Submit' is clicked on
+
+2023-07-09 01:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Submit' is clicked on
+
+2023-07-09 01:43:44 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:43:50 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon")): Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 01:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 01:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon")): Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 01:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 01:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Delegate")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 01:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 01:43:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/h1_Delegation"), 0): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 01:43:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 01:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 01:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 01:43:55 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:01 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:44:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux"), 0): Scroll to object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 01:44:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:44:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 01:44:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 01:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 01:44:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate")): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 01:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 01:44:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 01:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 01:44:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed")): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 01:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 01:44:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 01:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 01:44:04 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:10 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:44:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 20): Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:44:10 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:44:10 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:16 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12406" time="34.686" classname="Test Cases/Sanity/SIQ-TC-12406" status="PASSED">
+         <system-out><![CDATA[2023-07-09 01:44:16 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12406: Test Cases/Sanity/SIQ-TC-12406
+
+2023-07-09 01:44:17 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:23 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:44:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): NOT_RUN: click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 01:44:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 01:44:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 01:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 01:44:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Delegate")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 01:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 01:44:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/h1_Delegation"), 0): Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 01:44:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 01:44:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_HO")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 01:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 01:44:26 - [TEST_STEP][PASSED] - click(findTestObject("Delegate Rooster/Page_Lightning Experience  Salesforce/span_Field")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 01:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 01:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 01:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 01:44:29 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:35 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:44:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux"), 0): Scroll to object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 01:44:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:44:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 01:44:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_HO_slds-checkbox_faux")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_HO_slds-checkbox_faux' is clicked on
+
+2023-07-09 01:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_HO_slds-checkbox_faux' is clicked on
+
+2023-07-09 01:44:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate")): Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 01:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 01:44:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 01:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 01:44:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed")): Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 01:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 01:44:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 01:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 01:44:38 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:44 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:44:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 20): Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:44:45 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:44:45 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:51 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12407" time="33.843" classname="Test Cases/Sanity/SIQ-TC-12407" status="PASSED">
+         <system-out><![CDATA[2023-07-09 01:44:51 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12407: Test Cases/Sanity/SIQ-TC-12407
+
+2023-07-09 01:44:51 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:44:57 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:44:57 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): NOT_RUN: click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 01:44:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 01:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 01:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 01:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_Delegate")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 01:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 01:44:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/h1_Delegation"), 0): Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 01:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:44:59 - [MESSAGE][PASSED] - Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 01:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_HO")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 01:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 01:45:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 01:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 01:45:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster' is clicked on
+
+2023-07-09 01:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster' is clicked on
+
+2023-07-09 01:45:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_System")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_System' is clicked on
+
+2023-07-09 01:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_System' is clicked on
+
+2023-07-09 01:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy' is clicked on
+
+2023-07-09 01:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy' is clicked on
+
+2023-07-09 01:45:03 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:45:09 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:45:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux"), 0): Scroll to object 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 01:45:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 01:45:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 01:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 01:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 01:45:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate")): Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 01:45:11 - [MESSAGE][PASSED] - Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 01:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 01:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 01:45:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed")): Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 01:45:12 - [MESSAGE][PASSED] - Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 01:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 01:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 01:45:12 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:45:18 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 01:45:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Delegate System/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 20): Object 'Object Repository/Delegate System/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate System/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 01:45:19 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 01:45:25 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-09 01:40:35 - [TEST_SUITE][PASSED] - Sanity: Test Cases/Sanity/SIQ-TC-12407]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
