@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Delegated QR Cycle</name>
+   <tag></tag>
+   <elementGuidId>a14a717e-87ca-45d5-81e1-1d220ba491c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Delegated QR Cycle']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#modal-heading-01-70</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>c8cf4846-8aef-4672-b1e6-bbaa569df769</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-text-heading_medium slds-hyphenate</value>
+      <webElementGuid>e9d1f783-c995-4e7d-9ce1-77df29b36c2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modal-heading-01-70</value>
+      <webElementGuid>784de424-b098-4c0d-986f-64697747e51c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delegated QR Cycle</value>
+      <webElementGuid>af9440b4-a5eb-414c-962d-da2e3a785ee2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-heading-01-70&quot;)</value>
+      <webElementGuid>aa46f785-d207-4422-99cd-d9005dda9777</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='modal-heading-01-70']</value>
+      <webElementGuid>7f9f6192-94d2-4591-9104-07ce98ae9b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_2']/div/div/div/siqic-qr_-list-page-lwc/div/div/div[3]/section/div/header/h2</value>
+      <webElementGuid>fa69141b-dcc6-4f10-baa8-e127dab34e19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::h2[1]</value>
+      <webElementGuid>736bb1f0-fa8b-4cb2-ac8d-6e217e28681a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/following::h2[1]</value>
+      <webElementGuid>967f7127-35c4-4201-8298-72f95b88bcad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[2]/preceding::h2[1]</value>
+      <webElementGuid>946c9719-c897-4be4-ad32-71ffc9cf301d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Territory Code'])[1]/preceding::h2[1]</value>
+      <webElementGuid>ff4b6c71-2a00-487e-bde9-f4b896db09b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delegated QR Cycle']/parent::*</value>
+      <webElementGuid>35fddcc6-ccbb-486f-8ea4-f9c3c1e177a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>fdfcc5c7-67e8-4be1-a148-0c9caca717a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'modal-heading-01-70' and (text() = 'Delegated QR Cycle' or . = 'Delegated QR Cycle')]</value>
+      <webElementGuid>bbc94a67-fd69-4079-8a84-220ae11e8d97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

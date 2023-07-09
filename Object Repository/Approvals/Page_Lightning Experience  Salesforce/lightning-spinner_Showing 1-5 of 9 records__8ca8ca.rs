@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lightning-spinner_Showing 1-5 of 9 records__8ca8ca</name>
+   <tag></tag>
+   <elementGuidId>e792a19e-f502-4bb1-91d0-0b39457f8d71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>lightning-spinner.loading-spinner.slds-spinner_container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='brandBand_2']/div/div/div[2]/siqic-quota-refinement/div/div[3]/div[2]/div[2]/c-qr-refinement-panel/div[2]/lightning-spinner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lightning-spinner</value>
+      <webElementGuid>4b2f518a-fd3e-432e-b2c6-d3c735b99367</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>loading-spinner slds-spinner_container</value>
+      <webElementGuid>e97b7ef0-b22f-4b09-91bb-8c2c95f46301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>variant</name>
+      <type>Main</type>
+      <value>brand</value>
+      <webElementGuid>8f091381-b997-425b-9e71-97b315d52476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>medium</value>
+      <webElementGuid>a78775cb-fbc9-4c16-89cf-9fbea4db5bad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/siqic-quota-refinement[1]/div[@class=&quot;main-container&quot;]/div[3]/div[@class=&quot;tab-List tab-Refinement&quot;]/div[2]/c-qr-refinement-panel[1]/div[2]/lightning-spinner[@class=&quot;loading-spinner slds-spinner_container&quot;]</value>
+      <webElementGuid>527b43ab-f2f6-4bab-b2c4-f91328caecc9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_2']/div/div/div[2]/siqic-quota-refinement/div/div[3]/div[2]/div[2]/c-qr-refinement-panel/div[2]/lightning-spinner</value>
+      <webElementGuid>322519f6-0901-4c47-a851-316c91397ab8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>>'])[1]/following::lightning-spinner[1]</value>
+      <webElementGuid>a2ce3a95-8b20-4d7d-9d90-5ae5f86c5860</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/preceding::lightning-spinner[1]</value>
+      <webElementGuid>b0534b68-8786-4acd-b4ed-4a74b709bfc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Position Name'])[3]/preceding::lightning-spinner[1]</value>
+      <webElementGuid>2c04acbb-12a9-4acd-a5a7-253dab9e7448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//lightning-spinner</value>
+      <webElementGuid>4995cb77-b7c5-47fe-b7fc-ed6c70e4cd02</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

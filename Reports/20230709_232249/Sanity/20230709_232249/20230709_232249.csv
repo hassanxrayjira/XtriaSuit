@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity,Chrome 114.0.0.0,,,2023-07-09 23:22:53,2023-07-09 23:28:58,6m - 4.840s,FAILED
+,,,,,,,
+Test Cases/Sanity/SIQ-TC-12402,Chrome 114.0.0.0,,,2023-07-09 23:22:54,2023-07-09 23:25:15,2m - 20.723s,PASSED
+"callTestCase(findTestCase(""Login Logout/Login""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-09 23:22:55,2023-07-09 23:23:29,33.915s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:23:29,2023-07-09 23:23:35,6.013s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement""), 10)",Chrome 114.0.0.0,,,2023-07-09 23:23:35,2023-07-09 23:23:35,0.424s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-09 23:23:35,2023-07-09 23:23:36,0.647s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement""))",Chrome 114.0.0.0,,,2023-07-09 23:23:36,2023-07-09 23:23:37,0.948s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All""), 10)",Chrome 114.0.0.0,,,2023-07-09 23:23:37,2023-07-09 23:23:44,7.282s,PASSED
+"rightClick(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All""))",Chrome 114.0.0.0,,,2023-07-09 23:23:44,2023-07-09 23:23:46,2.223s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Folder""))",Chrome 114.0.0.0,,,2023-07-09 23:23:46,2023-07-09 23:23:47,1.210s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Name""), 10)",Chrome 114.0.0.0,,,2023-07-09 23:23:47,2023-07-09 23:23:48,0.454s,PASSED
+"setText(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_FolderName""), QL)",Chrome 114.0.0.0,,,2023-07-09 23:23:48,2023-07-09 23:23:51,3.151s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand""))",Chrome 114.0.0.0,,,2023-07-09 23:23:51,2023-07-09 23:23:52,0.647s,PASSED
+"scrollToElement(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:23:52,2023-07-09 23:23:56,3.862s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345""))",Chrome 114.0.0.0,,,2023-07-09 23:23:56,2023-07-09 23:23:56,0.803s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:23:56,2023-07-09 23:23:57,0.966s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:23:57,2023-07-09 23:23:58,0.441s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement""))",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.607s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading""))",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.005s,NOT_RUN
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName""))",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.000s,NOT_RUN
+now = new java.util.Date(),Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.012s,PASSED
+"val = now.format(""yyyy-mm-dd HH:mm:s"")",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.004s,PASSED
+"println(""Test"" + val)",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.005s,PASSED
+Nameof = val,Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.000s,PASSED
+"println(""GVB"" + Nameof)",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.001s,PASSED
+"setText(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName""), val)",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:23:58,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName""), val)",Chrome 114.0.0.0,,,2023-07-09 23:23:58,2023-07-09 23:24:01,2.477s,PASSED
+delay(8),Chrome 114.0.0.0,,,2023-07-09 23:24:01,2023-07-09 23:24:09,8.005s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading""))",Chrome 114.0.0.0,,,2023-07-09 23:24:09,2023-07-09 23:24:09,0.473s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Business UnitBusiness UnitVacAllergybuB_99ca2d""))",Chrome 114.0.0.0,,,2023-07-09 23:24:09,2023-07-09 23:24:09,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Business Unit""))",Chrome 114.0.0.0,,,2023-07-09 23:24:09,2023-07-09 23:24:10,0.946s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Vac""))",Chrome 114.0.0.0,,,2023-07-09 23:24:10,2023-07-09 23:24:11,0.612s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team""))",Chrome 114.0.0.0,,,2023-07-09 23:24:11,2023-07-09 23:24:12,0.933s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha""))",Chrome 114.0.0.0,,,2023-07-09 23:24:12,2023-07-09 23:24:12,0.610s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_ProductSelect ProductAllCRESMBAGARDASIL_ddc9a7""))",Chrome 114.0.0.0,,,2023-07-09 23:24:12,2023-07-09 23:24:12,0.001s,NOT_RUN
+delay(8),Chrome 114.0.0.0,,,2023-07-09 23:24:12,2023-07-09 23:24:21,8.015s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Product""))",Chrome 114.0.0.0,,,2023-07-09 23:24:21,2023-07-09 23:24:21,0.602s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_GARDASIL""))",Chrome 114.0.0.0,,,2023-07-09 23:24:21,2023-07-09 23:24:22,0.649s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Time Period""))",Chrome 114.0.0.0,,,2023-07-09 23:24:22,2023-07-09 23:24:22,0.522s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Daily""))",Chrome 114.0.0.0,,,2023-07-09 23:24:22,2023-07-09 23:24:23,0.538s,PASSED
+"setText(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Date_date""), ""7/4/2004"")",Chrome 114.0.0.0,,,2023-07-09 23:24:23,2023-07-09 23:24:24,0.988s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-09 23:24:24,2023-07-09 23:24:29,5.012s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close""))",Chrome 114.0.0.0,,,2023-07-09 23:24:29,2023-07-09 23:24:29,0.580s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close""))",Chrome 114.0.0.0,,,2023-07-09 23:24:29,2023-07-09 23:24:31,1.836s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-09 23:24:31,2023-07-09 23:24:36,5.012s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Super Admin Integration_roster-group""))",Chrome 114.0.0.0,,,2023-07-09 23:24:36,2023-07-09 23:24:37,0.687s,PASSED
+delay(8),Chrome 114.0.0.0,,,2023-07-09 23:24:37,2023-07-09 23:24:45,8.015s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Save""))",Chrome 114.0.0.0,,,2023-07-09 23:24:45,2023-07-09 23:24:46,0.628s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next""))",Chrome 114.0.0.0,,,2023-07-09 23:24:46,2023-07-09 23:24:46,0.595s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next_1""))",Chrome 114.0.0.0,,,2023-07-09 23:24:46,2023-07-09 23:25:10,23.860s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle""))",Chrome 114.0.0.0,,,2023-07-09 23:25:10,2023-07-09 23:25:15,4.536s,PASSED
+,,,,,,,
+Test Cases/Sanity/SIQ-TC-12405,Chrome 114.0.0.0,,,2023-07-09 23:25:15,2023-07-09 23:26:50,1m - 34.999s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:25:15,2023-07-09 23:25:46,30.411s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product""), 30)",Chrome 114.0.0.0,,,2023-07-09 23:25:46,2023-07-09 23:26:17,31.729s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Submit""))",Chrome 114.0.0.0,,,2023-07-09 23:26:17,2023-07-09 23:26:18,0.468s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:26:18,2023-07-09 23:26:24,6.011s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon""))",Chrome 114.0.0.0,,,2023-07-09 23:26:24,2023-07-09 23:26:25,0.932s,PASSED
+"click(findTestObject(""Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon""))",Chrome 114.0.0.0,,,2023-07-09 23:26:25,2023-07-09 23:26:26,0.948s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Delegate""))",Chrome 114.0.0.0,,,2023-07-09 23:26:26,2023-07-09 23:26:27,0.693s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/h1_Delegation""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:26:27,2023-07-09 23:26:27,0.912s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux""))",Chrome 114.0.0.0,,,2023-07-09 23:26:27,2023-07-09 23:26:28,0.573s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:26:28,2023-07-09 23:26:34,6.005s,PASSED
+"scrollToElement(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:26:34,2023-07-09 23:26:34,0.404s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux""))",Chrome 114.0.0.0,,,2023-07-09 23:26:34,2023-07-09 23:26:35,0.627s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate""))",Chrome 114.0.0.0,,,2023-07-09 23:26:35,2023-07-09 23:26:36,0.601s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate""))",Chrome 114.0.0.0,,,2023-07-09 23:26:36,2023-07-09 23:26:36,0.486s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed""))",Chrome 114.0.0.0,,,2023-07-09 23:26:36,2023-07-09 23:26:37,0.522s,PASSED
+"click(findTestObject(""Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed""))",Chrome 114.0.0.0,,,2023-07-09 23:26:37,2023-07-09 23:26:37,0.481s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:26:37,2023-07-09 23:26:43,6.018s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement""), 20)",Chrome 114.0.0.0,,,2023-07-09 23:26:43,2023-07-09 23:26:44,0.437s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:26:44,2023-07-09 23:26:50,6.017s,PASSED
+,,,,,,,
+Test Cases/Sanity/SIQ-TC-12406,Chrome 114.0.0.0,,,2023-07-09 23:26:50,2023-07-09 23:27:24,34.692s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:26:50,2023-07-09 23:26:56,6.019s,PASSED
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)""))",Chrome 114.0.0.0,,,2023-07-09 23:26:56,2023-07-09 23:26:56,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)""))",Chrome 114.0.0.0,,,2023-07-09 23:26:56,2023-07-09 23:26:57,0.618s,PASSED
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Delegate""))",Chrome 114.0.0.0,,,2023-07-09 23:26:57,2023-07-09 23:26:57,0.571s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/h1_Delegation""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:26:57,2023-07-09 23:26:58,0.455s,PASSED
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_HO""))",Chrome 114.0.0.0,,,2023-07-09 23:26:58,2023-07-09 23:27:00,2.004s,PASSED
+"click(findTestObject(""Delegate Rooster/Page_Lightning Experience  Salesforce/span_Field""))",Chrome 114.0.0.0,,,2023-07-09 23:27:00,2023-07-09 23:27:01,0.627s,PASSED
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux""))",Chrome 114.0.0.0,,,2023-07-09 23:27:01,2023-07-09 23:27:03,2.437s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:27:03,2023-07-09 23:27:09,6.007s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:27:09,2023-07-09 23:27:09,0.406s,PASSED
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_HO_slds-checkbox_faux""))",Chrome 114.0.0.0,,,2023-07-09 23:27:09,2023-07-09 23:27:10,0.488s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate""))",Chrome 114.0.0.0,,,2023-07-09 23:27:10,2023-07-09 23:27:10,0.497s,PASSED
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate""))",Chrome 114.0.0.0,,,2023-07-09 23:27:10,2023-07-09 23:27:11,0.481s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed""))",Chrome 114.0.0.0,,,2023-07-09 23:27:11,2023-07-09 23:27:11,0.512s,PASSED
+"click(findTestObject(""Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed""))",Chrome 114.0.0.0,,,2023-07-09 23:27:11,2023-07-09 23:27:12,0.468s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:27:12,2023-07-09 23:27:18,6.014s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement""), 20)",Chrome 114.0.0.0,,,2023-07-09 23:27:18,2023-07-09 23:27:18,0.406s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:27:18,2023-07-09 23:27:24,6.006s,PASSED
+,,,,,,,
+Test Cases/Sanity/SIQ-TC-12407,Chrome 114.0.0.0,,,2023-07-09 23:27:24,2023-07-09 23:27:58,34.146s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:27:25,2023-07-09 23:27:31,6.018s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)""))",Chrome 114.0.0.0,,,2023-07-09 23:27:31,2023-07-09 23:27:31,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)""))",Chrome 114.0.0.0,,,2023-07-09 23:27:31,2023-07-09 23:27:32,0.639s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/span_Delegate""))",Chrome 114.0.0.0,,,2023-07-09 23:27:32,2023-07-09 23:27:32,0.544s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/h1_Delegation""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:27:32,2023-07-09 23:27:33,0.537s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/button_HO""))",Chrome 114.0.0.0,,,2023-07-09 23:27:33,2023-07-09 23:27:35,2.082s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field""))",Chrome 114.0.0.0,,,2023-07-09 23:27:35,2023-07-09 23:27:35,0.594s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster""))",Chrome 114.0.0.0,,,2023-07-09 23:27:35,2023-07-09 23:27:36,0.612s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/span_System""))",Chrome 114.0.0.0,,,2023-07-09 23:27:36,2023-07-09 23:27:37,0.595s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy""))",Chrome 114.0.0.0,,,2023-07-09 23:27:37,2023-07-09 23:27:37,0.518s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:27:37,2023-07-09 23:27:43,6.014s,PASSED
+"scrollToElement(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux""), 0)",Chrome 114.0.0.0,,,2023-07-09 23:27:43,2023-07-09 23:27:44,0.473s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux""))",Chrome 114.0.0.0,,,2023-07-09 23:27:44,2023-07-09 23:27:44,0.497s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate""))",Chrome 114.0.0.0,,,2023-07-09 23:27:44,2023-07-09 23:27:45,0.506s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate""))",Chrome 114.0.0.0,,,2023-07-09 23:27:45,2023-07-09 23:27:45,0.486s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed""))",Chrome 114.0.0.0,,,2023-07-09 23:27:45,2023-07-09 23:27:46,0.516s,PASSED
+"click(findTestObject(""Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed""))",Chrome 114.0.0.0,,,2023-07-09 23:27:46,2023-07-09 23:27:46,0.453s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:27:46,2023-07-09 23:27:52,6.014s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Delegate System/Page_SalesIQ Home  Salesforce/span_Quota Refinement""), 20)",Chrome 114.0.0.0,,,2023-07-09 23:27:52,2023-07-09 23:27:52,0.432s,PASSED
+delay(6),Chrome 114.0.0.0,,,2023-07-09 23:27:52,2023-07-09 23:27:58,6.010s,PASSED
+,,,,,,,
+Test Cases/Sanity/SIQ-TC-12409,Chrome 114.0.0.0,,,2023-07-09 23:28:57,2023-07-09 23:28:58,0.665s,FAILED
+"click(findTestObject(""Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon""))",Chrome 114.0.0.0,,,2023-07-09 23:28:57,2023-07-09 23:28:58,0.648s,FAILED

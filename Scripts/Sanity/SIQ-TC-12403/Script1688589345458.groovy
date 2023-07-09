@@ -17,19 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Logout/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Approvals/Page_Lightning Experience  Salesforce/dropdown'))
+not_run: WebUI.callTestCase(findTestCase('Login Logout/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(6)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement'), 
+not_run: WebUI.waitForElementVisible(findTestObject('Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement'), 
     10)
 
-WebUI.click(findTestObject('Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.click(findTestObject('Object Repository/New Folder/Page_SalesIQ Home  Salesforce/a_Quota Refinement'))
-WebUI.click(findTestObject('Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement'))
+not_run: WebUI.click(findTestObject('Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement'))
 
-WebUI.click(findTestObject('Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon'))
+not_run: WebUI.click(findTestObject('Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon'))
 
 WebUI.click(findTestObject('New Folder/Copy QR/Page_Lightning Experience  Salesforce/span_Copy'))
 
@@ -61,3 +63,15 @@ WebUI.click(findTestObject('Object Repository/New Folder/Page_Lightning Experien
 
 WebUI.click(findTestObject('Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle'))
 
+WebUI.delay(20)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy'),
+	10)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product'),
+	10)
+
+
+WebUI.click(findTestObject('Object Repository/Approvals/Page_Lightning Experience  Salesforce/button_Submit'))
+
+WebUI.delay(6)

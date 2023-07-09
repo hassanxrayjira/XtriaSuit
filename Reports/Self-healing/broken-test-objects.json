@@ -29,6 +29,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Approvals/Page_Lightning Experience  Salesforce/h2_Delegated QR Cycle",
+      "brokenLocator": "//h2[@id\u003d\u0027modal-heading-01-70\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027brandBand_2\u0027]/div/div/div/siqic-qr_-list-page-lwc/div/div/div[3]/section/div/header/h2",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Approvals/Page_Lightning Experience  Salesforce/h2_Delegated QR Cycle_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/System User/Page_Lightning Experience  Salesforce/span_System",
+      "brokenLocator": "//span[text()\u003d\u0027System\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Roster\u0027])[1]/following::span[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/System User/Page_Lightning Experience  Salesforce/span_System_neighbor.png"
     }
   ]
 }

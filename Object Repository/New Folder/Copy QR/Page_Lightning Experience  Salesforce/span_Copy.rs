@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Copy']</value>
+         <value>(//span[text()='Copy'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>23c723d1-2e38-4949-84dd-c69ef37f4568</webElementGuid>
+      <webElementGuid>18fc9f33-1476-4d78-8b71-8156187d0a64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>slds-truncate</value>
-      <webElementGuid>f399620c-b6ad-432a-b51b-e93ee5376d5f</webElementGuid>
+      <webElementGuid>4c098ef0-292e-46a1-85a2-2bc7f9d87d94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Copy</value>
-      <webElementGuid>4311e374-dc31-434b-a9c3-f142fa90d77c</webElementGuid>
+      <webElementGuid>841df2ba-71e8-4a23-8371-566a5f83f129</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/siqic-qr_-list-page-lwc[1]/div[@class=&quot;row&quot;]/div[@class=&quot;slds-grid slds-p-around--medium&quot;]/div[@class=&quot;slds-col slds-border_left&quot;]/div[@class=&quot;slds-m-left--medium slds-m-right--medium slds-m-top--small sldc-scrollable slds-is-relative&quot;]/lightning-layout-item[@class=&quot;slds-size_11-of-12&quot;]/slot[1]/div[@class=&quot;list-scroll&quot;]/table[@class=&quot;list table-example slds-is-relative slds-scrollable&quot;]/tbody[1]/tr[@class=&quot;slds-hint-parent dataRow&quot;]/td[7]/div[@class=&quot;slds-truncate slds-dropdown-trigger slds-dropdown-trigger_click&quot;]/lightning-button-menu[@class=&quot;slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open&quot;]/div[@class=&quot;slds-dropdown slds-dropdown_left&quot;]/div[@class=&quot;slds-dropdown__list slds-dropdown_length-with-icon-10&quot;]/slot[1]/lightning-menu-item[@class=&quot;slds-dropdown__item&quot;]/a[1]/span[@class=&quot;slds-truncate&quot;]</value>
-      <webElementGuid>b1f3555d-54e5-4539-b7df-26cf0ba775ec</webElementGuid>
+      <webElementGuid>143e4186-d048-4227-8525-a98e3b0bac8f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='brandBand_2']/div/div/div/siqic-qr_-list-page-lwc/div/div/div[3]/div[2]/lightning-layout-item/slot/div/table/tbody/tr/td[7]/div/lightning-button-menu/div/div/slot/lightning-menu-item[6]/a/span</value>
-      <webElementGuid>aa3f87a2-cb9d-43e8-834d-2cd1251371db</webElementGuid>
+      <webElementGuid>4f0b545b-1f1b-4178-bf47-c194292efe9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delegate'])[1]/following::span[1]</value>
-      <webElementGuid>b147ce60-c883-4aa3-9fd8-f6ef58559545</webElementGuid>
+      <webElementGuid>8069638a-e768-4d3d-92d4-1a5c91c3f985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delegated Cycle'])[1]/following::span[2]</value>
-      <webElementGuid>497927f1-994f-4b5d-ac20-e5939ac6ee7f</webElementGuid>
+      <webElementGuid>fd52b409-5230-481f-b1b0-798d2fdde8f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terminate'])[1]/preceding::span[1]</value>
-      <webElementGuid>3920cb0a-821c-4410-ae5e-016414600100</webElementGuid>
+      <webElementGuid>59ac4e54-6ec9-49e9-9b13-3ce888336a7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[2]/preceding::span[2]</value>
-      <webElementGuid>6d4404fe-86fa-48eb-a312-94b72b168d8b</webElementGuid>
+      <webElementGuid>20c3f66d-1eac-4926-a854-945578fba392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Copy']/parent::*</value>
-      <webElementGuid>d15eb436-456e-46be-8362-b7ff10b2216c</webElementGuid>
+      <webElementGuid>07ccf963-685f-4ed4-8467-16f6e025757c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//lightning-menu-item[6]/a/span</value>
-      <webElementGuid>f5a0e5d5-f3f8-42c5-971a-868d2b094adb</webElementGuid>
+      <webElementGuid>1845c5e0-cb90-4e0f-9334-12e46ed5e7b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Copy' or . = 'Copy')]</value>
-      <webElementGuid>ef1f1d63-fcde-431c-af7b-bd5e5611d1e9</webElementGuid>
+      <webElementGuid>88edbb9c-bc33-4e45-8b65-88cce00d2ed8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

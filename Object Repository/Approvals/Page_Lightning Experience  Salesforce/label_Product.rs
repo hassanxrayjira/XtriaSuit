@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Product</name>
+   <tag></tag>
+   <elementGuidId>f1c10148-6eaf-4951-b88c-10fc0f1406cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[(text() = 'Product' or . = 'Product')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>lightning-combobox.product-dropdown.slds-form-element > label.slds-form-element__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1a8564ea-fbc0-4298-9162-f7719283df37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-form-element__label</value>
+      <webElementGuid>970dd330-2818-4556-8a2f-52981252724c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>combobox-button-1629</value>
+      <webElementGuid>a0bdf40a-e80e-4039-89bc-da7ebd74e3e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Product</value>
+      <webElementGuid>f2a01de9-35cc-43f8-b04e-07413838b389</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbar-inputs-1627&quot;)/lightning-combobox[@class=&quot;product-dropdown slds-form-element&quot;]/label[@class=&quot;slds-form-element__label&quot;]</value>
+      <webElementGuid>e7a0dd27-1b7e-4681-b437-cc4666206a0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbar-inputs-1627']/lightning-combobox/label</value>
+      <webElementGuid>64df8812-5654-4a07-8c15-8c2efdf66358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;'])[1]/following::label[1]</value>
+      <webElementGuid>0b36e823-a643-4778-a70d-2b30978704b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[1]/following::label[1]</value>
+      <webElementGuid>cba5467e-92b3-434f-8618-81a8fa37e0eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cresmba'])[2]/preceding::label[1]</value>
+      <webElementGuid>b0c208b6-3745-4b77-bc21-447ef8f550a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collapse Tree Branch'])[1]/preceding::label[1]</value>
+      <webElementGuid>739e2a42-23de-42bb-9622-e693cd212965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Product']/parent::*</value>
+      <webElementGuid>106384bd-7bc1-4811-b643-77348254aab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//c-qr-hierarchy-panel/div/div/div/div[2]/lightning-combobox/label</value>
+      <webElementGuid>cf6d563f-66e0-4dfb-afc8-11861dc1ed71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Product' or . = 'Product')]</value>
+      <webElementGuid>665eaf75-f31c-43aa-bbd7-0014f117fa44</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product",
+      "brokenLocator": "//div[@id\u003d\u0027navbar-inputs-1796\u0027]/lightning-combobox/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/lightning-combobox/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230709_205719/Sanity/20230709_205719/Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Approvals/Page_Lightning Experience  Salesforce/h2_Delegated QR Cycle",
+      "brokenLocator": "//h2[@id\u003d\u0027modal-heading-01-70\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027brandBand_2\u0027]/div/div/div/siqic-qr_-list-page-lwc/div/div/div[3]/section/div/header/h2",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230709_205719/Sanity/20230709_205719/Object Repository/Approvals/Page_Lightning Experience  Salesforce/h2_Delegated QR Cycle_idRelative.png"
+    }
+  ]
+}

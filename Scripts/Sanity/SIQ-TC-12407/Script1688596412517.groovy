@@ -34,12 +34,12 @@ WebUI.click(findTestObject('Object Repository/System User/Page_Lightning Experie
 
 WebUI.click(findTestObject('Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field'))
 
-WebUI.click(findTestObject('Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster'))
-
 WebUI.click(findTestObject('Object Repository/System User/Page_Lightning Experience  Salesforce/span_System'))
 
 //WebUI.click(findTestObject('Object Repository/System User/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux'))
 WebUI.click(findTestObject('Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy'))
+
+not_run: WebUI.click(findTestObject('Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster'))
 
 WebUI.delay(6)
 

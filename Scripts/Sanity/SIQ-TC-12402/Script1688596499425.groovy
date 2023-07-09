@@ -56,7 +56,8 @@ WebUI.setText(findTestObject('Object Repository/New Folder/Page_Lightning Experi
 //
 //WebUI.sendKeys(findTestObject('your test object name', ['QQL': QQL]),  GlobalVariable.QL)
 WebUI.click(findTestObject('Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand'))
-
+WebUI.scrollToElement(findTestObject('Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345'),
+	0)
 //TestObject to = findTestObject('yObject Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345', ['newName': newName]);
 //println to.getSelectorCollection().toString(); // Should see your XPath which contains the actual value of newName, among other stuffs
 WebUI.click(findTestObject('Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345'))

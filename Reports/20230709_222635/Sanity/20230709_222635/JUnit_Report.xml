@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sanity" time="479.98" tests="5" failures="1" errors="0">
+   <testsuite name="Sanity" tests="5" failures="1" errors="0" time="479.98" skipped="0" timestamp="2023-07-09 22:26:40" hostname="Jalal - 192.168.0.109" id="Test Suites/Sanity">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635"/>
+         <property name="logFiles" value="C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635\\1688923710657.png, C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635\\1688924078801.png, C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635\\1688924079447.png, C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635\\1688924080076.png, C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635\\1688924080706.png"/>
+         <property name="hostName" value="Jalal - 192.168.0.109"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.109"/>
+         <property name="sessionId" value="bebe58be2dcf785bc09ce15c06456e37"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12402" time="148.478" classname="Test Cases/Sanity/SIQ-TC-12402" status="PASSED">
+         <system-out><![CDATA[2023-07-09 22:28:30 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12402: Test Cases/Sanity/SIQ-TC-12402
+
+2023-07-09 22:28:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Logout/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Logout/Login' successfully
+
+2023-07-09 22:28:30 - [TEST_CASE][PASSED] - Test Cases/Login Logout/Login: Test Cases/Login Logout/Login
+
+2023-07-09 22:28:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-09 22:28:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-09 22:28:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-09 22:28:32 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.default_content_setting_values.notifications=1.0}']
+
+2023-07-09 22:28:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-09 22:28:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-09 22:28:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-09 22:28:33 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-09 22:28:33 - [TEST_STEP][PASSED] - navigateToUrl("https://login.salesforce.com/"): Navigate to 'https://login.salesforce.com/' successfully
+
+2023-07-09 22:28:35 - [MESSAGE][PASSED] - Navigate to 'https://login.salesforce.com/' successfully
+
+2023-07-09 22:28:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_Login  Salesforce/label_Username"), "Username"): Actual text and expected text of test object 'Object Repository/Login/Page_Login  Salesforce/label_Username' are matched.
+
+2023-07-09 22:28:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Login  Salesforce/label_Username' are matched.
+
+2023-07-09 22:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login  Salesforce/input_Username_username"), "vinod.bendre@axtria.com.int"): Text 'vinod.bendre@axtria.com.int' is set on object 'Object Repository/Login/Page_Login  Salesforce/input_Username_username'
+
+2023-07-09 22:28:38 - [MESSAGE][PASSED] - Text 'vinod.bendre@axtria.com.int' is set on object 'Object Repository/Login/Page_Login  Salesforce/input_Username_username'
+
+2023-07-09 22:28:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Login  Salesforce/input_Password_pw"), "uXlRb1kGYHM+iH3zWjUAbA=="): Text ****** has been set on object 'Object Repository/Login/Page_Login  Salesforce/input_Password_pw'
+
+2023-07-09 22:28:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Login  Salesforce/input_Password_pw'
+
+2023-07-09 22:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/Login/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-07-09 22:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-07-09 22:28:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Page_SalesIQ Home  Salesforce/span_SalesIQ Home"), 0): Object 'Object Repository/Login/Page_SalesIQ Home  Salesforce/span_SalesIQ Home' is visible
+
+2023-07-09 22:28:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:29:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_SalesIQ Home  Salesforce/span_SalesIQ Home' is visible
+
+2023-07-09 22:29:01 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-07-09 22:29:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-07-09 22:29:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Logout/Login' successfully
+
+2023-07-09 22:29:05 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:29:11 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:29:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 10): Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:29:12 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:29:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), STOP_ON_FAILURE): Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 22:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 22:29:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement")): Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 22:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is clicked on
+
+2023-07-09 22:29:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All"), 10): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is visible
+
+2023-07-09 22:29:15 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is visible
+
+2023-07-09 22:29:15 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is right clicked on
+
+2023-07-09 22:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Show All' is right clicked on
+
+2023-07-09 22:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Folder")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Folder' is clicked on
+
+2023-07-09 22:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Folder' is clicked on
+
+2023-07-09 22:29:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Name"), 10): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Name' is visible
+
+2023-07-09 22:29:25 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Name' is visible
+
+2023-07-09 22:29:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_FolderName"), QL): Text '!AR' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_FolderName'
+
+2023-07-09 22:29:27 - [MESSAGE][PASSED] - Text '!AR' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_FolderName'
+
+2023-07-09 22:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand' is clicked on
+
+2023-07-09 22:29:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_slds-button slds-button_brand' is clicked on
+
+2023-07-09 22:29:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345' is clicked on
+
+2023-07-09 22:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345' is clicked on
+
+2023-07-09 22:29:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement"), 0): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 22:29:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:29:35 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 22:29:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement"), 0): Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 22:29:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:29:36 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is visible
+
+2023-07-09 22:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is clicked on
+
+2023-07-09 22:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_New Quota Refinement' is clicked on
+
+2023-07-09 22:29:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading"))
+
+2023-07-09 22:29:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading"))
+
+2023-07-09 22:29:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"))
+
+2023-07-09 22:29:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"))
+
+2023-07-09 22:29:36 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2023-07-09 22:29:36 - [TEST_STEP][PASSED] - val = now.format("yyyy-mm-dd HH:mm:s"): null
+
+2023-07-09 22:29:36 - [TEST_STEP][PASSED] - println("Test" + val): null
+
+2023-07-09 22:29:36 - [TEST_STEP][PASSED] - Nameof = val: null
+
+2023-07-09 22:29:36 - [TEST_STEP][PASSED] - println("GVB" + Nameof): null
+
+2023-07-09 22:29:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val): NOT_RUN: setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val)
+
+2023-07-09 22:29:37 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val)
+
+2023-07-09 22:29:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName"), val): Text '2023-29-09 22:29:36' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName'
+
+2023-07-09 22:29:41 - [MESSAGE][PASSED] - Text '2023-29-09 22:29:36' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Name_quotaName'
+
+2023-07-09 22:29:41 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-09 22:29:49 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-09 22:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading' is clicked on
+
+2023-07-09 22:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/lightning-spinner_Loading' is clicked on
+
+2023-07-09 22:29:49 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Business UnitBusiness UnitVacAllergybuB_99ca2d")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Business UnitBusiness UnitVacAllergybuB_99ca2d"))
+
+2023-07-09 22:29:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_Business UnitBusiness UnitVacAllergybuB_99ca2d"))
+
+2023-07-09 22:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Business Unit")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Business Unit' is clicked on
+
+2023-07-09 22:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Business Unit' is clicked on
+
+2023-07-09 22:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Vac")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Vac' is clicked on
+
+2023-07-09 22:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Vac' is clicked on
+
+2023-07-09 22:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team' is clicked on
+
+2023-07-09 22:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Team' is clicked on
+
+2023-07-09 22:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha' is clicked on
+
+2023-07-09 22:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Alpha' is clicked on
+
+2023-07-09 22:29:52 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_ProductSelect ProductAllCRESMBAGARDASIL_ddc9a7")): NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_ProductSelect ProductAllCRESMBAGARDASIL_ddc9a7"))
+
+2023-07-09 22:29:52 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/div_ProductSelect ProductAllCRESMBAGARDASIL_ddc9a7"))
+
+2023-07-09 22:29:52 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-09 22:30:00 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-09 22:30:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Product")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Product' is clicked on
+
+2023-07-09 22:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Product' is clicked on
+
+2023-07-09 22:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_GARDASIL")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_GARDASIL' is clicked on
+
+2023-07-09 22:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_GARDASIL' is clicked on
+
+2023-07-09 22:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Time Period")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Time Period' is clicked on
+
+2023-07-09 22:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Select Time Period' is clicked on
+
+2023-07-09 22:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Daily")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Daily' is clicked on
+
+2023-07-09 22:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/span_Daily' is clicked on
+
+2023-07-09 22:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Date_date"), "7/4/2004"): Text '7/4/2004' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Date_date'
+
+2023-07-09 22:30:03 - [MESSAGE][PASSED] - Text '7/4/2004' is set on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Date_date'
+
+2023-07-09 22:30:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-09 22:30:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-09 22:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 22:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 22:30:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 22:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Cancel and close' is clicked on
+
+2023-07-09 22:30:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-09 22:30:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-09 22:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Super Admin Integration_roster-group")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Super Admin Integration_roster-group' is clicked on
+
+2023-07-09 22:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/input_Super Admin Integration_roster-group' is clicked on
+
+2023-07-09 22:30:16 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-09 22:30:24 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-09 22:30:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Save")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Save' is clicked on
+
+2023-07-09 22:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Save' is clicked on
+
+2023-07-09 22:30:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next' is clicked on
+
+2023-07-09 22:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next' is clicked on
+
+2023-07-09 22:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next_1")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next_1' is clicked on
+
+2023-07-09 22:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Next_1' is clicked on
+
+2023-07-09 22:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle")): Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle' is clicked on
+
+2023-07-09 22:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_Generate Cycle' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12405" time="83.045" classname="Test Cases/Sanity/SIQ-TC-12405" status="PASSED">
+         <system-out><![CDATA[2023-07-09 22:30:59 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12405: Test Cases/Sanity/SIQ-TC-12405
+
+2023-07-09 22:31:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy"), 0): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy' is visible
+
+2023-07-09 22:31:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:31:00 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_View Full Hierarchy' is visible
+
+2023-07-09 22:31:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product"), 30): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product' is visible
+
+2023-07-09 22:31:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='navbar-inputs-1796']/lightning-combobox/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-09 22:31:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product'. Try using Self-healing.
+
+2023-07-09 22:31:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product' was broken. Propose an alternative one: '//div[2]/lightning-combobox/label'.
+
+2023-07-09 22:31:32 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product' is visible
+
+2023-07-09 22:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Submit")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Submit' is clicked on
+
+2023-07-09 22:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Submit' is clicked on
+
+2023-07-09 22:31:50 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:31:56 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon")): Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 22:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 22:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon")): Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 22:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder/Copy QR/Page_Lightning Experience  Salesforce/lightning-primitive-icon' is clicked on
+
+2023-07-09 22:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Delegate")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 22:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 22:31:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/h1_Delegation"), 0): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 22:31:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:32:00 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 22:32:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 22:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 22:32:01 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:32:07 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:32:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux"), 0): Scroll to object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 22:32:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:32:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 22:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 22:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 22:32:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate")): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 22:32:08 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 22:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 22:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 22:32:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed")): Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 22:32:09 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 22:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed")): Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 22:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 22:32:09 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:32:15 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:32:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 20): Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:32:16 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:32:22 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12406" time="36.506" classname="Test Cases/Sanity/SIQ-TC-12406" status="PASSED">
+         <system-out><![CDATA[2023-07-09 22:32:22 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12406: Test Cases/Sanity/SIQ-TC-12406
+
+2023-07-09 22:32:22 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:32:28 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:32:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): NOT_RUN: click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 22:32:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 22:32:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 22:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 22:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Delegate")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 22:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 22:32:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/h1_Delegation"), 0): Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 22:32:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:32:30 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 22:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_HO")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 22:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 22:32:34 - [TEST_STEP][PASSED] - click(findTestObject("Delegate Rooster/Page_Lightning Experience  Salesforce/span_Field")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 22:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 22:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 22:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_Business Unit_slds-radio_faux' is clicked on
+
+2023-07-09 22:32:37 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:32:43 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:32:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux"), 0): Scroll to object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 22:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:32:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 22:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_HO_slds-checkbox_faux")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_HO_slds-checkbox_faux' is clicked on
+
+2023-07-09 22:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/span_HO_slds-checkbox_faux' is clicked on
+
+2023-07-09 22:32:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate")): Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 22:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 22:32:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 22:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 22:32:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed")): Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 22:32:45 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 22:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed")): Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 22:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Delegate Rooster/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 22:32:46 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:32:52 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:32:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 20): Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/New Folder/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:32:52 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:32:58 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12407" time="34.022" classname="Test Cases/Sanity/SIQ-TC-12407" status="PASSED">
+         <system-out><![CDATA[2023-07-09 22:32:58 - [TEST_CASE][PASSED] - Test Cases/Sanity/SIQ-TC-12407: Test Cases/Sanity/SIQ-TC-12407
+
+2023-07-09 22:32:59 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:33:05 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:33:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): NOT_RUN: click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 22:33:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)"))
+
+2023-07-09 22:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 22:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/lightning-primitive-icon (1)' is clicked on
+
+2023-07-09 22:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_Delegate")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 22:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Delegate' is clicked on
+
+2023-07-09 22:33:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/h1_Delegation"), 0): Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 22:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/h1_Delegation' is visible
+
+2023-07-09 22:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_HO")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 22:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_HO' is clicked on
+
+2023-07-09 22:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 22:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Field' is clicked on
+
+2023-07-09 22:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster' is clicked on
+
+2023-07-09 22:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Roster' is clicked on
+
+2023-07-09 22:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_System")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_System' is clicked on
+
+2023-07-09 22:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_System' is clicked on
+
+2023-07-09 22:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy' is clicked on
+
+2023-07-09 22:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_Copy' is clicked on
+
+2023-07-09 22:33:11 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:33:17 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:33:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux"), 0): Scroll to object 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 22:33:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-09 22:33:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' successfully
+
+2023-07-09 22:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 22:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/span_User Type_slds-checkbox_faux' is clicked on
+
+2023-07-09 22:33:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate")): Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 22:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clickable
+
+2023-07-09 22:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 22:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Populate' is clicked on
+
+2023-07-09 22:33:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed")): Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 22:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clickable
+
+2023-07-09 22:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed")): Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 22:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/System User/Page_Lightning Experience  Salesforce/button_Proceed' is clicked on
+
+2023-07-09 22:33:20 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:33:26 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-07-09 22:33:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Delegate System/Page_SalesIQ Home  Salesforce/span_Quota Refinement"), 20): Object 'Object Repository/Delegate System/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:33:26 - [MESSAGE][PASSED] - Object 'Object Repository/Delegate System/Page_SalesIQ Home  Salesforce/span_Quota Refinement' is visible
+
+2023-07-09 22:33:26 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-07-09 22:33:32 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sanity/SIQ-TC-12409" time="0.601" classname="Test Cases/Sanity/SIQ-TC-12409" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sanity/SIQ-TC-12409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at SIQ-TC-12409.run(SIQ-TC-12409:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688923595457.run(TempTestSuite1688923595457.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK1RDKU', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\Jalal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bebe58be2dcf785bc09ce15c06456e37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-07-09 22:34:40 - [TEST_CASE][FAILED] - Test Cases/Sanity/SIQ-TC-12409: Test Cases/Sanity/SIQ-TC-12409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at SIQ-TC-12409.run(SIQ-TC-12409:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688923595457.run(TempTestSuite1688923595457.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK1RDKU', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\Jalal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bebe58be2dcf785bc09ce15c06456e37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-07-09 22:34:40 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Login Logout/Login"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Login Logout/Login"), [:], STOP_ON_FAILURE)
+
+2023-07-09 22:34:40 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Login Logout/Login"), [:], STOP_ON_FAILURE)
+
+2023-07-09 22:34:40 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon")): Unable to click on object 'Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at SIQ-TC-12409.run(SIQ-TC-12409:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688923595457.run(TempTestSuite1688923595457.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK1RDKU', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\Jalal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bebe58be2dcf785bc09ce15c06456e37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1688839948935.run(Script1688839948935.groovy:22)
+	... 16 more
+)
+
+2023-07-09 22:34:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at SIQ-TC-12409.run(SIQ-TC-12409:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688923595457.run(TempTestSuite1688923595457.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK1RDKU', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\Jalal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bebe58be2dcf785bc09ce15c06456e37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1688839948935.run(Script1688839948935.groovy:22)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\Jalal\\git\\XtriaSuit\\Reports\\20230709_222635\\Sanity\\20230709_222635\\1688924080706.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-09 22:34:40 - [TEST_CASE][FAILED] - Test Cases/Sanity/SIQ-TC-12409: Test Cases/Sanity/SIQ-TC-12409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Approvals/Page_Lightning Experience  Salesforce/lightning-primitive-icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at SIQ-TC-12409.run(SIQ-TC-12409:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688923595457.run(TempTestSuite1688923595457.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK1RDKU', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\Jalal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bebe58be2dcf785bc09ce15c06456e37
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-09 22:26:40 - [TEST_SUITE][FAILED] - Sanity: Test Cases/Sanity/SIQ-TC-12402 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at SIQ-TC-12402.run(SIQ-TC-12402:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688923595457.run(TempTestSuite1688923595457.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="slds-button" aria-disabled="false" name="a3X5e000000EfIoEAK" title="!AR" type="button" value="">...</button> is not clickable at point (90, 839). Other element would receive the click: <div siqic-qr_listpagelwc_qr_listpagelwc="" class="row">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK1RDKU', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\Jalal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cf532b07444d85ef6578f7c3faaf3b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-09 22:26:40 - [TEST_SUITE][FAILED] - Sanity: Test Cases/Sanity/SIQ-TC-12402 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at SIQ-TC-12402.run(SIQ-TC-12402:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1688923595457.run(TempTestSuite1688923595457.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="slds-button" aria-disabled="false" name="a3X5e000000EfIoEAK" title="!AR" type="button" value="">...</button> is not clickable at point (90, 839). Other element would receive the click: <div siqic-qr_listpagelwc_qr_listpagelwc="" class="row">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK1RDKU', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\Jalal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cf532b07444d85ef6578f7c3faaf3b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

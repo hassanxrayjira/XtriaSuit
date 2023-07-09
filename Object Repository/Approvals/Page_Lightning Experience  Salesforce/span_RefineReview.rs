@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_RefineReview</name>
+   <tag></tag>
+   <elementGuidId>08adc40d-8f0a-4d9f-8e7e-ec903622bd37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[(text() = 'Refine/Review' or . = 'Refine/Review')])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3aee4a3c-e8dc-407a-b76b-5faf81c0bce5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-truncate</value>
+      <webElementGuid>24902559-5de1-4f93-8437-08341ee0ca2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Refine/Review</value>
+      <webElementGuid>13520f17-b367-4e2f-a0bf-d53b73cac229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/siqic-qr_-list-page-lwc[1]/div[@class=&quot;row&quot;]/div[@class=&quot;slds-grid slds-p-around--medium&quot;]/div[@class=&quot;slds-col slds-border_left&quot;]/div[@class=&quot;slds-m-left--medium slds-m-right--medium slds-m-top--small sldc-scrollable slds-is-relative&quot;]/lightning-layout-item[@class=&quot;slds-size_11-of-12&quot;]/slot[1]/div[@class=&quot;list-scroll&quot;]/table[@class=&quot;list table-example slds-is-relative slds-scrollable&quot;]/tbody[1]/tr[@class=&quot;slds-hint-parent dataRow&quot;]/td[7]/div[@class=&quot;slds-truncate slds-dropdown-trigger slds-dropdown-trigger_click&quot;]/lightning-button-menu[@class=&quot;slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open&quot;]/div[@class=&quot;slds-dropdown slds-dropdown_left&quot;]/div[@class=&quot;slds-dropdown__list slds-dropdown_length-with-icon-10&quot;]/slot[1]/lightning-menu-item[@class=&quot;slds-dropdown__item&quot;]/a[1]/span[@class=&quot;slds-truncate&quot;]</value>
+      <webElementGuid>13304e0a-5cd3-4601-b05d-bf53a7eea789</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_2']/div/div/div[3]/siqic-qr_-list-page-lwc/div/div/div[3]/div[2]/lightning-layout-item/slot/div/table/tbody/tr/td[7]/div/lightning-button-menu/div/div/slot/lightning-menu-item[3]/a/span</value>
+      <webElementGuid>b6149ca5-2792-4181-b5eb-9d57b544b5da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::span[1]</value>
+      <webElementGuid>57afefbf-78bf-4fa5-9e19-7d27c86da3d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[2]/following::span[2]</value>
+      <webElementGuid>036881df-75fd-44f3-876d-504d8540a6a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delegated Cycle'])[2]/preceding::span[1]</value>
+      <webElementGuid>8b0b6ec1-02f0-4e12-99b2-2c39ec2df867</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delegate'])[2]/preceding::span[2]</value>
+      <webElementGuid>20e342ab-bca3-48f5-a07f-9d393813a1e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/siqic-qr_-list-page-lwc/div/div/div[3]/div[2]/lightning-layout-item/slot/div/table/tbody/tr/td[7]/div/lightning-button-menu/div/div/slot/lightning-menu-item[3]/a/span</value>
+      <webElementGuid>5b74682a-ee15-44b5-bd34-c6b07594244f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Refine/Review' or . = 'Refine/Review')]</value>
+      <webElementGuid>6cd68a6b-1cd7-49bc-8d0d-5da1b420283a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

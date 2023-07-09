@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Quota RefinementQuota_Refinement  Ap202_582c08</name>
+   <tag></tag>
+   <elementGuidId>18671e0e-8773-47e3-99c7-256c209f0e83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.main-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='brandBand_2']/div/div/div[2]/siqic-quota-refinement/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fa925976-f3c4-47b9-b186-05cf658a3624</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-container</value>
+      <webElementGuid>78076bda-4101-4926-ba03-1675d6902c06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quota RefinementQuota_Refinement > !Ap2023-50-09 11:50:41ExitDetailsRefinementView Full HierarchySaveSubmitName2023-50-09 11:50:41Business UnitVACTeamALPHASub TeamProductsCRESMBAFrequencyDailyStart DateEnd DateGoalsStandard ConfigurationRosterVAC_Roster_22KView Product Level ConfigurationView Cycle Level Configuration Product Level Configurations ×Select ProductCresmbaRefinement LevelHelpRefinement Allowance- First Level: One level below only; All Level: Each level in the hierarchyRefinement LevelAll LevelRound off Values ToHelpNumber of digits post decimal point, to which value would be rounded off. This is applicable to all numbers in this refinement cycle, both on UI &amp; downloaded file (excel).Round off Values To4RULEPARAMETERAuto Distribute GoalsHelpAutomatically distributes goals to the below level in hierarchy, based on Goal Based or Equal Allocation.Equal AllocationThresholdHelpGuardrails to restrict adjustment values to be entered by the user.ErrorMin:Max:WarningMin:Max:CommentsHelpMakes reason and comments columns mandatory for the user to fill for all levels. In case the field is disabled kindly contact system Admin to change the configuration for enabling the same.AlwaysAuto Force Zero SumHelpAutomatically allocates goals at the same level in the hierarchy to force zero-sum at the overall level, based on Equal allocation.Equal AllocationZero Sum ConfigurationHelpZero sum configuration selection for a level would lead to auto selection of zero sum configuration for all lower levels.RegionDistrictTerritoryAccountCYCLE LEVEL CONFIGURATION×Refinement TypeTop DownBottom UpRefinement WindowRoleRefinement Start DateRefinement End DateVAC_Region_ManagerSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for VAC_DISTRICT_MANAGERSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for Approval WindowAuto ApprovalHelpIf auto approval is turned on, all changes will get auto approved in cases where the changes are less than the configured warning threshold.Approval HierarchyHelpTo choose, who among the hierarchy would approve the refinement. Single Level: Only HO; Multi-Level: SuccessorSingle LevelRoleApproval Start DateApproval End DateHOSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for >&lt;ProductCresmbaCollapse Tree BranchNguyen Thanh LuanExpand Tree BranchVAC-UnallocatedExpand Tree BranchNguyen Thanh NguyenExpand Tree BranchVAC-SPECExpand Tree BranchVan Bao TramExpand Tree BranchThap Ba Phung HoangExpand Tree BranchVu Thi ThuyExpand Tree BranchLe Phuong ThuyExpand Tree BranchDang Thi Thu DiuExpand Tree BranchVAC-Unallocated-SouthOriginal GoalsProposed GoalsChangeNguyen Thanh LuanPosition NamePosition CodeInitial GoalsRefinementFinal RefinementRefined GoalsCommentOriginal Initial GoalsChange PercentageBaseline Sales%GrowthRefined goals growth over baselineField2Absolute GrowthReasonAdditional_Field_1Additional_Field_2Employee First NameEmployee Last NameEmployee NumberIs Mirror TerritoryBase Territory for Mirror TerritoryIs_FrozenNguyen Thanh LuanVAC-REGION0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344647883falsefalseVAC-UnallocatedVAC-Unallocated0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344648892falsefalseNguyen Thanh NguyenVAC-SOUTH30.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthersA1244falsefalseVAC-SPECVAC-SPEC0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344647885falsefalseVan Bao TramVAC-SOUTH10.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers785634falsefalseThap Ba Phung HoangVAC-SOUTH20.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1100falsefalse&lt;&lt;&lt;12>>>Showing 1-5 of 9 records  SelectPosition NameTerritory CodeSubmitted ByApproved/Rejected ByCommentsStatusActionSelect Action*CommentPosition NameTerritory CodeSubmitted BySubmitted RoleAction ByActionee RoleCommentsStatusDate</value>
+      <webElementGuid>84642c81-8f34-4a67-91fd-3d4e3d969832</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/siqic-quota-refinement[1]/div[@class=&quot;main-container&quot;]</value>
+      <webElementGuid>fab27fca-aefe-464e-918e-ea243b61cc83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_2']/div/div/div[2]/siqic-quota-refinement/div</value>
+      <webElementGuid>3300c718-563e-4230-a957-903dfb7acb63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refinement - In Progress'])[36]/following::div[5]</value>
+      <webElementGuid>402b5dac-06ec-4b17-a2f7-0d340a7ff86d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyen Thanh Luan'])[1]/following::div[6]</value>
+      <webElementGuid>75023890-3c7e-4a73-8329-dcb4cc9e1ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//siqic-quota-refinement/div</value>
+      <webElementGuid>9b4847dc-5c3d-4bb6-a0a9-3bdc8b8d6e19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Quota RefinementQuota_Refinement > !Ap2023-50-09 11:50:41ExitDetailsRefinementView Full HierarchySaveSubmitName2023-50-09 11:50:41Business UnitVACTeamALPHASub TeamProductsCRESMBAFrequencyDailyStart DateEnd DateGoalsStandard ConfigurationRosterVAC_Roster_22KView Product Level ConfigurationView Cycle Level Configuration Product Level Configurations ×Select ProductCresmbaRefinement LevelHelpRefinement Allowance- First Level: One level below only; All Level: Each level in the hierarchyRefinement LevelAll LevelRound off Values ToHelpNumber of digits post decimal point, to which value would be rounded off. This is applicable to all numbers in this refinement cycle, both on UI &amp; downloaded file (excel).Round off Values To4RULEPARAMETERAuto Distribute GoalsHelpAutomatically distributes goals to the below level in hierarchy, based on Goal Based or Equal Allocation.Equal AllocationThresholdHelpGuardrails to restrict adjustment values to be entered by the user.ErrorMin:Max:WarningMin:Max:CommentsHelpMakes reason and comments columns mandatory for the user to fill for all levels. In case the field is disabled kindly contact system Admin to change the configuration for enabling the same.AlwaysAuto Force Zero SumHelpAutomatically allocates goals at the same level in the hierarchy to force zero-sum at the overall level, based on Equal allocation.Equal AllocationZero Sum ConfigurationHelpZero sum configuration selection for a level would lead to auto selection of zero sum configuration for all lower levels.RegionDistrictTerritoryAccountCYCLE LEVEL CONFIGURATION×Refinement TypeTop DownBottom UpRefinement WindowRoleRefinement Start DateRefinement End DateVAC_Region_ManagerSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for VAC_DISTRICT_MANAGERSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for Approval WindowAuto ApprovalHelpIf auto approval is turned on, all changes will get auto approved in cases where the changes are less than the configured warning threshold.Approval HierarchyHelpTo choose, who among the hierarchy would approve the refinement. Single Level: Only HO; Multi-Level: SuccessorSingle LevelRoleApproval Start DateApproval End DateHOSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for >&lt;ProductCresmbaCollapse Tree BranchNguyen Thanh LuanExpand Tree BranchVAC-UnallocatedExpand Tree BranchNguyen Thanh NguyenExpand Tree BranchVAC-SPECExpand Tree BranchVan Bao TramExpand Tree BranchThap Ba Phung HoangExpand Tree BranchVu Thi ThuyExpand Tree BranchLe Phuong ThuyExpand Tree BranchDang Thi Thu DiuExpand Tree BranchVAC-Unallocated-SouthOriginal GoalsProposed GoalsChangeNguyen Thanh LuanPosition NamePosition CodeInitial GoalsRefinementFinal RefinementRefined GoalsCommentOriginal Initial GoalsChange PercentageBaseline Sales%GrowthRefined goals growth over baselineField2Absolute GrowthReasonAdditional_Field_1Additional_Field_2Employee First NameEmployee Last NameEmployee NumberIs Mirror TerritoryBase Territory for Mirror TerritoryIs_FrozenNguyen Thanh LuanVAC-REGION0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344647883falsefalseVAC-UnallocatedVAC-Unallocated0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344648892falsefalseNguyen Thanh NguyenVAC-SOUTH30.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthersA1244falsefalseVAC-SPECVAC-SPEC0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344647885falsefalseVan Bao TramVAC-SOUTH10.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers785634falsefalseThap Ba Phung HoangVAC-SOUTH20.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1100falsefalse&lt;&lt;&lt;12>>>Showing 1-5 of 9 records  SelectPosition NameTerritory CodeSubmitted ByApproved/Rejected ByCommentsStatusActionSelect Action*CommentPosition NameTerritory CodeSubmitted BySubmitted RoleAction ByActionee RoleCommentsStatusDate' or . = 'Quota RefinementQuota_Refinement > !Ap2023-50-09 11:50:41ExitDetailsRefinementView Full HierarchySaveSubmitName2023-50-09 11:50:41Business UnitVACTeamALPHASub TeamProductsCRESMBAFrequencyDailyStart DateEnd DateGoalsStandard ConfigurationRosterVAC_Roster_22KView Product Level ConfigurationView Cycle Level Configuration Product Level Configurations ×Select ProductCresmbaRefinement LevelHelpRefinement Allowance- First Level: One level below only; All Level: Each level in the hierarchyRefinement LevelAll LevelRound off Values ToHelpNumber of digits post decimal point, to which value would be rounded off. This is applicable to all numbers in this refinement cycle, both on UI &amp; downloaded file (excel).Round off Values To4RULEPARAMETERAuto Distribute GoalsHelpAutomatically distributes goals to the below level in hierarchy, based on Goal Based or Equal Allocation.Equal AllocationThresholdHelpGuardrails to restrict adjustment values to be entered by the user.ErrorMin:Max:WarningMin:Max:CommentsHelpMakes reason and comments columns mandatory for the user to fill for all levels. In case the field is disabled kindly contact system Admin to change the configuration for enabling the same.AlwaysAuto Force Zero SumHelpAutomatically allocates goals at the same level in the hierarchy to force zero-sum at the overall level, based on Equal allocation.Equal AllocationZero Sum ConfigurationHelpZero sum configuration selection for a level would lead to auto selection of zero sum configuration for all lower levels.RegionDistrictTerritoryAccountCYCLE LEVEL CONFIGURATION×Refinement TypeTop DownBottom UpRefinement WindowRoleRefinement Start DateRefinement End DateVAC_Region_ManagerSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for VAC_DISTRICT_MANAGERSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for Approval WindowAuto ApprovalHelpIf auto approval is turned on, all changes will get auto approved in cases where the changes are less than the configured warning threshold.Approval HierarchyHelpTo choose, who among the hierarchy would approve the refinement. Single Level: Only HO; Multi-Level: SuccessorSingle LevelRoleApproval Start DateApproval End DateHOSelect a date after Jul 9, 2023Select a date for Select a date after Jul 9, 2023Select a date for >&lt;ProductCresmbaCollapse Tree BranchNguyen Thanh LuanExpand Tree BranchVAC-UnallocatedExpand Tree BranchNguyen Thanh NguyenExpand Tree BranchVAC-SPECExpand Tree BranchVan Bao TramExpand Tree BranchThap Ba Phung HoangExpand Tree BranchVu Thi ThuyExpand Tree BranchLe Phuong ThuyExpand Tree BranchDang Thi Thu DiuExpand Tree BranchVAC-Unallocated-SouthOriginal GoalsProposed GoalsChangeNguyen Thanh LuanPosition NamePosition CodeInitial GoalsRefinementFinal RefinementRefined GoalsCommentOriginal Initial GoalsChange PercentageBaseline Sales%GrowthRefined goals growth over baselineField2Absolute GrowthReasonAdditional_Field_1Additional_Field_2Employee First NameEmployee Last NameEmployee NumberIs Mirror TerritoryBase Territory for Mirror TerritoryIs_FrozenNguyen Thanh LuanVAC-REGION0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344647883falsefalseVAC-UnallocatedVAC-Unallocated0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344648892falsefalseNguyen Thanh NguyenVAC-SOUTH30.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthersA1244falsefalseVAC-SPECVAC-SPEC0.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1344647885falsefalseVan Bao TramVAC-SOUTH10.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers785634falsefalseThap Ba Phung HoangVAC-SOUTH20.00000.00000.00000.00000.0000%0.00000.0000%0.00000.0000Specific Market ConditionStrategically MotivatedOthers1100falsefalse&lt;&lt;&lt;12>>>Showing 1-5 of 9 records  SelectPosition NameTerritory CodeSubmitted ByApproved/Rejected ByCommentsStatusActionSelect Action*CommentPosition NameTerritory CodeSubmitted BySubmitted RoleAction ByActionee RoleCommentsStatusDate')]</value>
+      <webElementGuid>b1bccca2-6f09-4f2f-be26-7d72d40a5fa4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
