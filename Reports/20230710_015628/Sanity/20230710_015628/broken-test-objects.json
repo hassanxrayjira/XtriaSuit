@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product",
+      "brokenLocator": "//div[@id\u003d\u0027navbar-inputs-1796\u0027]/lightning-combobox/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/lightning-combobox/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230710_015628/Sanity/20230710_015628/Object Repository/New Folder (1)/Deligate HO/Page_Lightning Experience  Salesforce/label_Product_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/System User/Page_Lightning Experience  Salesforce/span_System",
+      "brokenLocator": "//span[text()\u003d\u0027System\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Roster\u0027])[1]/following::span[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230710_015628/Sanity/20230710_015628/Object Repository/System User/Page_Lightning Experience  Salesforce/span_System_neighbor.png"
+    }
+  ]
+}
