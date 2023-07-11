@@ -49,6 +49,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/System User/Page_Lightning Experience  Salesforce/span_System_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345",
+      "brokenLocator": "//button [text()\u003d \u0027!A!3A\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@name\u003d\u0027a3X5e000000EfFuEAK\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder/Page_Lightning Experience  Salesforce/button_12345_attributes.png"
     }
   ]
 }

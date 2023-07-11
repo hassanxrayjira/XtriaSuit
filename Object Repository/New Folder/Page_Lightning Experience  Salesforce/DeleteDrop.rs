@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DeleteDrop</name>
+   <tag></tag>
+   <elementGuidId>eedea6ce-0bce-452b-92db-42455dbc75dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[.//div[text()='${GlobalVariable.Nameof}']]/following-sibling::td//lightning-button-menu</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;New Quota Refinement&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>987e1102-51ee-4ae5-868a-be51b25a0974</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-button slds-button_brand</value>
+      <webElementGuid>9084a70c-7348-4aad-a973-d1b904f9e990</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>128a9621-9c26-4c57-a649-9f6caa394e6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>New Quota Refinement</value>
+      <webElementGuid>0c0456d8-a0da-4588-936a-3d872a7bdafe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>503252d4-d194-4391-86ff-cd2fcb918d1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Quota Refinement</value>
+      <webElementGuid>7f6df2b8-786b-4460-ba0d-b9674f7cd1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/siqic-qr_-list-page-lwc[1]/div[@class=&quot;row&quot;]/div[@class=&quot;slds-grid slds-p-around--medium&quot;]/div[@class=&quot;slds-col slds-border_left&quot;]/lightning-layout[@class=&quot;slds-m-left--medium slds-m-right--medium slds-grid&quot;]/slot[@class=&quot;slds-slot&quot;]/div[1]/lightning-layout-item[1]/slot[1]/lightning-button[1]/button[@class=&quot;slds-button slds-button_brand&quot;]</value>
+      <webElementGuid>b8ab53ba-82cb-4bd5-a93c-1012685b3ac2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='New Quota Refinement']</value>
+      <webElementGuid>7b1b516d-2375-439b-9a80-a688c93faa69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_2']/div/div/div/siqic-qr_-list-page-lwc/div/div/div[3]/lightning-layout/slot/div/lightning-layout-item/slot/lightning-button/button</value>
+      <webElementGuid>bc9492c6-3e16-4046-bdbf-2f39b0c0cc73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::button[1]</value>
+      <webElementGuid>88f82042-c0be-4181-81f9-4b4095914118</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quota Refinement List'])[2]/following::button[2]</value>
+      <webElementGuid>cc8f46a6-0117-42b1-862e-eb7182116b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::button[1]</value>
+      <webElementGuid>c87555f0-2d21-4b21-bd03-725122b68209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='New Quota Refinement']/parent::*</value>
+      <webElementGuid>952ba2c3-2527-4678-91cc-d0f37fe3829b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//slot/lightning-button/button</value>
+      <webElementGuid>acb9a641-514f-4f0b-92b4-693cb6922a09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = 'New Quota Refinement' and @type = 'button' and (text() = 'New Quota Refinement' or . = 'New Quota Refinement')]</value>
+      <webElementGuid>a2ed5ad0-b2f8-4ce8-b673-f90534545f7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
